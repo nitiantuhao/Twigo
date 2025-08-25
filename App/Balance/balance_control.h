@@ -9,6 +9,7 @@
 #include "Motor/tb6612.h"
 #include "Sensor/mpu6050_dmp.h"
 #include "encoder.h"
+
 extern float current_pitch;
 // PID参数结构体
 typedef struct {
@@ -46,5 +47,6 @@ void Balance_Init(void);
 float PID_Calculate(PID_HandleTypeDef *pid, float current);
 void Balance_Control(void);
 void MPU6050_Interrupt_Init(void);
+
 
 #endif //TWIGO_BALANCE_CONTROL_H
