@@ -119,7 +119,7 @@ int main(void)
 
     /* USER CODE BEGIN 3 */
     // BluetoothDebug_Process();
-
+    Balance_Control();
   }
   /* USER CODE END 3 */
 }
